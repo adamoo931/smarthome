@@ -4,7 +4,9 @@ export default {
     './src//*.{html,js,jsx,ts,tsx,vue}',
 ],
   theme: {
-    extend: {},
+    extend: { backgroundImage: {
+      'hero-pattern': "url('./src/assets/Images/gettingstarted/svgbackground.svg')",
+    }},
   },
   plugins: [],
 }

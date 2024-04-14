@@ -2,9 +2,56 @@
 @tailwind components;
 @tailwind base;
 
-.auth{
+
+.root{
     @apply bg-red-500;
 }
-.wrapper{
-    @apply bg-violet-950;
-}
+ /*/                                                                  getttttttting started /*/
+.flex-container {
+    @apply flex flex-col justify-center text-sm font-bold text-center bg-white text-neutral-900 ;
+  }
+  
+  .outer-container {
+    @apply flex overflow-hidden relative flex-col justify-center items-center px-16 py-16 w-full min-h-[1024px] max-md:px-5 max-md:max-w-full;
+  }
+  
+  .image-full {
+    @apply object-cover absolute inset-0 size-full;
+  }
+  
+  .inner-container {
+    @apply flex relative flex-col items-center px-14 py-14 max-w-full border border-black border-solid shadow-sm bg-white bg-opacity-90 rounded-[30px] w-[551px] max-md:px-5;
+  }
+  
+  .image-stretch {
+    @apply self-stretch w-full aspect-square max-md:max-w-full;
+  }
+  
+  .logo {
+    @apply mt-5 w-16 aspect-[11.11];
+  }
+  
+  .title {
+    @apply mt-24 text-2xl tracking-tighter leading-8 max-md:mt-10;
+  }
+  
+  .subtitle {
+    @apply mt-11 font-medium tracking-tight leading-[171%] max-md:mt-10;
+  }
+  
+  .button-container {
+    @apply flex flex-col justify-center self-stretch mt-24 mr-5 ml-5 text-white uppercase leading-[143%] max-md:mx-2.5 max-md:mt-10;
+  }
+  
+  .button {
+    @apply flex gap-5 justify-between py-4 pr-4 pl-20 rounded-[30px] max-md:pl-5;
+  }
+  
+  .button-text {
+    @apply my-auto;
+  }
+  
+  .button-icon {
+    @apply shrink-0 w-6 aspect-square;
+  }
+   /*/                                                                  getttttttting started /*/
