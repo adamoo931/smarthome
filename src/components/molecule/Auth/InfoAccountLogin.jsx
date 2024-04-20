@@ -1,7 +1,7 @@
 import { Flex  ,  Text , Center} from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types'
-export function InfoAccount({info , authStatus})
+export function InfoAccountLogin({info , authStatus})
 {
     return(
         <Center marginTop={'20px'}>
@@ -15,7 +15,7 @@ export function InfoAccount({info , authStatus})
     )
 }
 
-InfoAccount.propTypes = {
+InfoAccountLogin.propTypes = {
     info : PropTypes.string.isRequired,
     authStatus : PropTypes.string.isRequired
 }

@@ -5,9 +5,9 @@ export function InputForm({image , text})
 {
     return(
         <FormControl marginTop={30}>
-            <FormLabel  width={'40%'}>
+            <FormLabel  width={'40%'} >
                 <Center>
-                    <Text  width={200} fontSize={{base : '12px' , md : '14px' , lg : '16px'}} color={'gray.500'} className='dm-sans' fontWeight={400}>{text}</Text>
+                    <Text  marginLeft={{base: '0%', sm: '3%', md: '17%', lg: '23%', xl: '30%', '2xl': '35%'}} width={200} fontSize={{base : '12px' , md : '14px' , lg : '16px'}} color={'gray.500'} className='dm-sans' fontWeight={400}>{text}</Text>
                 </Center>
             </FormLabel>
             <Box display={'flex'} justifyContent={{base : 'start', md : 'center' , lg :'center'}} alignItems={'center'}>
