@@ -1,4 +1,4 @@
-import { Flex  , Box , Text, Center } from '@chakra-ui/react';
+import { Flex  , Box , Text} from '@chakra-ui/react';
 import { user , lock , login } from '../../../assets/Images/index.js';
 import {InfoAccountLogin , SubmitButton , InfoForgetPassword , InputForm} from './../../molecule/Auth/index.js'
 
